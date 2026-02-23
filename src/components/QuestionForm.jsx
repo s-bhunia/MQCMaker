@@ -5,7 +5,7 @@ const QuestionForm = ({ onSubmit, isLoading }) => {
   const [formData, setFormData] = useState({
     subject: "",
     topic: "",
-    count: 15,
+    count: 5,
     type: "MCQ",
     hardness: "Medium",
   });
